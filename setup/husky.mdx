@@ -5,7 +5,6 @@ description: 'The pre-commit helper.'
 # Husky
 
 > Ultra-fast modern native git hooks
-> 
 
 Husky enhances your commits and more 🐶 *woof!*
 
@@ -36,14 +35,19 @@ And more:
 # Get started | Husky
 
 ## Install
-
-`bun add --dev husky`
+```bash
+bun add --dev husky
+```
+_Or equivalent package manager_
 
 ## `husky init` (recommended)
 
 The `init` command simplifies setting up husky in a project. It creates a `pre-commit` script in `.husky/` and updates the `prepare` script in `package.json`. Modifications can be made later to suit your workflow.
 
-`bunx husky init`
+```bash
+bunx husky init
+```
+_Or equivalent package manager_
 
 ## Try it
 
@@ -227,7 +231,7 @@ In order to run scripts that require the use of a scripting language, use the fo
 `node .husky/pre-commit.js`
 3.   in `.husky/pre-commit.js`javascript
 
-```
+```json
 // Your NodeJS code
 // ...
 ```
@@ -279,13 +283,10 @@ echo $PATH
 
 Now, node refers to `Node-Y`. Switching to `Node-X` changes `PATH` accordingly:
 
-shell
-
-```
+```bash
 echo $PATH
 # Output
 ~/version-manager/Node-X/:...
-
 ```
 
 The issue arises because GUIs, launched outside a terminal, don't initialize the version manager, leaving `PATH` without the Node install path. Thus, Git hooks from GUIs often fail.
