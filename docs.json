@@ -11,6 +11,17 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Coding Tools",
+        "groups": [
+          {
+            "group": "Setup Tools",
+            "pages": [
+              "husky"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
