@@ -11,6 +11,18 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Agents",
+        "groups": [
+          {
+            "group": "Software Testing",
+            "pages": [
+              "agents/software-testing/prompts",
+              "agents/software-testing/research"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Coding Tools",
         "groups": [
           {
