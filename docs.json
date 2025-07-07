@@ -16,7 +16,7 @@
           {
             "group": "Setup Tools",
             "pages": [
-              "husky"
+              "setup/husky"
             ]
           }
         ]
