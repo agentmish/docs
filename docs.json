@@ -11,6 +11,18 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "LLMs",
+        "groups": [
+          {
+            "group": "Watchers",
+            "pages": [
+              "llms/watchers/watchman/llms-full.mdx",
+              "llms/watchers/watchman/llms.mdx"
+            ]
+          }
+        ]
+      }
+      {
         "tab": "Edge",
         "groups": [
           {
