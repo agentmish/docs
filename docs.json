@@ -11,13 +11,25 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Edge",
+        "groups": [
+          {
+            "group": "Cloudflare",
+            "pages": [
+              "edge/cloudflare/remote-mcp/how-to"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Agents",
         "groups": [
           {
             "group": "Software Testing",
             "pages": [
-              "agents/software-testing/prompts",
-              "agents/software-testing/research"
+              "agents/software-testing/prompts/generalist",
+              "agents/software-testing/research/strategies",
+              "agents/software-testing/research/feedback"
             ]
           }
         ]
